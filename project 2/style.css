@@ -1,0 +1,36 @@
+
+td {
+    border: 1px solid #CCCCCC;
+    padding: 5px 15px;
+}
+
+nav {
+    /* Warna latar belakang navbar */
+    background-color:black;
+}
+
+nav ul {
+    /* Menghilangkan bullet point pada daftar */
+    list-style: none;
+    /* Membuat daftar menjadi horizontal dan fleksibel */
+    display: flex;
+}
+
+nav li {
+    /* Jarak antara tautan menu */
+    margin-right: 100px;
+}
+
+nav a {
+    /* Warna teks tautan menu */
+    color:white;
+    /* Menghilangkan garis bawah pada teks tautan menu */
+    text-decoration: none;
+    /* Ukuran font yang besar */
+    font-size: 36px;
+}
+
+nav a:hover {
+    /* Warna teks tautan menu saat di-hover */
+    color:#00ffea;
+}

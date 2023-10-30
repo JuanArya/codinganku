@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+        <!-- Daftar tautan menu navbar -->
+        <ul>
+            <!-- Tautan menu ke halaman "Home" -->
+            <li><a class="nav-link" href="#">Home</a></li>
+            <!-- Tautan menu ke halaman "About Me" -->
+            <li><a class="nav-link" href="indexs2.html">Order List</a></li>
+            <!-- Tautan menu ke bagian "Contact" -->
+            <li><a class="nav-link" href="#">Data</a></li>
+        </ul>
+    </nav>
+
+    <html>
+<head>
+</head>
+<body>
+    <h1>Program Tabel Otomatis</h1>
+    <table id="tabelData">
+        <tr>
+            <td>Nama Barang</td>
+            <td>Jumlah</td>
+            <td>Harga</td>
+            <td>Aksi</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form onsubmit="tambahData(); return false;">
+        Nama Barang: <input type="text" id="nama-barang" required><br>
+        Jumlah: <input type="number" id="jumlah-barang" required><br>
+        Harga: <input type="number" id="harga-barang" required><br>
+        <input type="submit" value="Tambah">
+    </form>
+
+
+    <!-- Menyisipkan script JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+</body>
+</html>
